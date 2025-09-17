@@ -5,7 +5,7 @@ resource "aws_iam_user" "users" {
 }
 
 locals {
-  users = ["fresher-1", "fresher-2", "fresher-3"]
+  users = ["users-1", "users-2", "users-3"]
 }
 
 # Attach S3 ReadOnly Policy
